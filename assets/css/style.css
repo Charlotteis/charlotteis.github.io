@@ -1,7 +1,15 @@
 body {
   background-color: #f5f8fa;
   width: 100%;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125em;
+  line-height: 1.5;
+  /* Enable Kerning where possible */
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1"; }
 
 .wrapper {
   max-width: 640px;
@@ -9,7 +17,7 @@ body {
 
 header {
   background-color: #ffffff;
-  margin-top: 100px;
+  margin-top: 125px;
   text-align: center;
   border-bottom: 6px solid #99A5AD; }
   header img {
@@ -24,31 +32,41 @@ nav {
     nav ul li {
       display: inline-block; }
 
-nav a {
-  text-decoration: underline;
+nav a, nav a:hover, nav a:focus, nav a:visited {
+  text-decoration: none;
   color: #515254;
-  margin: 0 25px; }
+  margin: 0 25px;
+  border-bottom: 1px solid #515254; }
 
 h1 {
-  font-family: "Roboto Slab", serif; }
+  font-family: "Roboto Slab", serif;
+  font-size: 2.369em; }
+
+h2 {
+  font-size: 1.777em; }
 
 h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  color: #515254; }
+  color: #515254;
+  font-size: 1.333em; }
 
 h4 {
   font-weight: 400;
-  color: #515254; }
+  color: #515254;
+  font-size: 1em;
+  margin: 15px 0; }
 
 .phrase {
   text-align: center;
   margin: 50px 10px;
   color: #515254; }
+  .phrase img {
+    width: 24px; }
 
 .main {
   background-color: #ffffff;
-  border-bottom: 6px solid #99a5ad; }
+  border-bottom: 6px solid #99A5AD; }
 
 .posts,
 .projects {
@@ -61,30 +79,34 @@ h4 {
     list-style-type: none;
     padding-left: 10px;
     margin: 0; }
+  .posts li,
+  .projects li {
+    color: #515254; }
   .posts a,
   .projects a {
-    text-decoration: none;
-    color: #9C251F; }
-    .posts a:hover,
-    .projects a:hover {
-      text-decoration: underline; }
+    color: #9C251F;
+    text-decoration: none; }
+    .posts a:hover, .posts a:focus,
+    .projects a:hover,
+    .projects a:focus {
+      border-bottom: 1px solid #9C251F; }
 
 .posts {
-  padding-bottom: 0px; }
+  padding-bottom: 30px; }
 
 .projects {
-  padding-bottom: 30px; }
+  padding-bottom: 10px; }
 
 .about {
   text-align: center;
-  margin: 50px 40px;
+  margin: 60px 35px;
   color: #515254; }
   .about h2 {
     font-family: "Roboto Slab", serif; }
 
 .social {
-  margin-top: 25px; }
+  margin-top: 32px; }
   .social a {
-    color: #99A5AD;
+    color: #515254;
     text-decoration: none;
     margin: 8px; }
