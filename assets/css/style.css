@@ -1,7 +1,7 @@
 body {
   background-color: #f5f8fa;
   width: 100%;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 1.125em;
   line-height: 1.5;
   /* Enable Kerning where possible */
@@ -110,3 +110,27 @@ h4 {
     color: #515254;
     text-decoration: none;
     margin: 8px; }
+
+/*************************
+
+    MEDIA QUERIES
+
+*************************/
+/*
+   This is where the design breaks
+   I based this upon the main H1 breaking onto two lines,
+   discovered by using: http://responsivepx.com/
+*/
+@media screen and (max-width: 600px) {
+  /* Styles */
+  body {
+    font-size: 1em; }
+
+  .wrapper {
+    max-width: 100%; }
+
+  h1 {
+    font-size: 2.369em; } }
+@media screen and (max-width: 505px) {
+  h1 {
+    font-size: 1.7em; } }
