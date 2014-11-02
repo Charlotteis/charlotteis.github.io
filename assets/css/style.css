@@ -39,7 +39,7 @@ nav a {
   margin: 0 25px;
   border-bottom: 1px solid #515254; }
 
-nav a:hover, nav a:focus {
+nav a:hover, nav a:focus, nav a:active {
   text-decoration: none;
   color: #515254;
   margin: 0 25px;
@@ -95,10 +95,14 @@ h4 {
     color: #9C251F;
     text-decoration: none;
     border-bottom: 1px solid #9C251F; }
-    .posts a:hover, .posts a:focus,
+    .posts a:hover, .posts a:focus, .posts a:active,
     .projects a:hover,
-    .projects a:focus {
+    .projects a:focus,
+    .projects a:active {
       border-bottom: 2px solid #515254; }
+    .posts a:visited,
+    .projects a:visited {
+      color: #515254; }
 
 .posts {
   padding-bottom: 30px; }
@@ -119,6 +123,19 @@ h4 {
     color: #515254;
     text-decoration: none;
     margin: 8px; }
+
+/*************************
+
+    HELPER CLASSES
+
+*************************/
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
 
 /*************************
 
