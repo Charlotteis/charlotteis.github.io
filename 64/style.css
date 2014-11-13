@@ -64,6 +64,13 @@ footer a:visited {
     letter-spacing: 1.2em;
 }
 
+.click {
+    padding: 1.5em 0 1.5em 0;
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
 .lighter {
     margin-top: 0;
     padding-top: 1.5em;
@@ -95,22 +102,4 @@ and (max-width : 640px) {
     .eight {
         letter-spacing: 0.5em;
     }
-}
-
-/*@media only screen
-and (max-width : 930px) {
-
-    p {
-        padding: 0 10%;
-    }
-
-}*/
-
-@media only screen
-and (min-width : 800px) {
-
-    p {
-        padding: 0 25%;
-    }
-
 }
