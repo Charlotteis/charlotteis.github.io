@@ -1,0 +1,81 @@
+body {
+    line-height: 1.5;
+    font-size: 1.125em;
+}
+
+header {
+    padding: 8em 0;
+
+    background-color: #13171F;
+
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+
+    font-size: 3.157em;
+    color: #FFFFFF;
+}
+
+p {
+    padding: 0 25%;
+}
+
+hr {
+    width: 65%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    background: #999;
+}
+
+footer {
+    color: #454A56;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+footer a {
+    color: #454A56;
+}
+
+footer a:visited {
+    color: #454A56;
+}
+
+.again a {
+    color: #13171F;
+}
+
+.again a:visited {
+    color: #13171F;
+}
+
+.hidden {
+    color: white;
+}
+
+.eight {
+    padding: 1.5em 0 1.5em 0;
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 1.2em;
+}
+
+.lighter {
+    margin-top: 0;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    color: #454A56;
+}
+
+.breathe {
+    letter-spacing: 0.1em;
+}
+
+.again {
+    text-align: center;
+    text-transform: uppercase;
+}
